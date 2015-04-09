@@ -1,5 +1,5 @@
 <?php
-require_once("password.php");
+require_once("lib-password.php");
 function rstr($length = 34) {
     return substr(str_shuffle("0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"), 0, $length);
 }
